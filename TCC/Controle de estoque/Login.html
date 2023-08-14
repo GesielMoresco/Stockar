@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login -Stockar</title>
+</head>
+<style>
+
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+  .body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url('color1.jpg');
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0);
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  position: absolute;
+  border: 2px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+  
+}
+
+.login-container h2 {
+  margin-bottom: center;
+}
+
+.login-input {
+  width: 80%;
+  margin-bottom: 20px;
+  height: 25px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 3px;
+  margin: center;
+}
+
+.login-button {
+  background-color: #1c9bd6;
+  color: white;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+  width: 80%;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0f36e2;
+}
+</style>
+<body class="body">
+    <div class="login-container">
+        <h1>Login Stockar </h1>
+        <form>
+          <input type="text" placeholder="Nome de usuário" class="login-input" required>
+          <input type="password" placeholder="Senha" class="login-input" required>
+          <button type="submit" class="login-button">Entrar</button>
+        </form>
+        <p>Não tem uma conta ainda? <a href="#">Crie sua conta</a></p>
+      </div>
+</body>
+</html>
